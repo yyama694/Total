@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">合計計算</string>
+    <string name="action_settings">設定</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add">追加</string>
+    <string name="summary">合計</string>
+    <string name="del">削除</string>
+    <string name="allClear">全削除</string>
+    <string name="unit">dol</string>
+    <string name="amount">amount</string>
+    <string name="no">No</string>
+    <string name="save">保存</string>
+    <string name="open">開く</string>
+    <string name="select_file">ファイルを選択してください</string>
+    <string name="saveFile">ファイル保存</string>
+    <string name="openFile">ファイルを開く</string>
+    <string name="has_been_saved">ファイル保存が完了しました</string>
+    <string name="failed_to_save">ファイル保存に失敗しました</string>
+    <string name="delete">削除</string>
+    <string name="cancel">キャンセル</string>
+    <string name="file">ファイル</string>
+    <string name="delete_confirmation">削除してもよろしいですか?</string>
+    <string name="opend_file">ファイルを開きました。</string>
+    <string name="file_open_error">ファイルオープンに失敗しました。</string>
+    <string name="please_memo">メモを入力できます。(任意)</string>
+    <string name="space"></string>
+    <string name="value">値</string>
+    <string name="confirmation">確認</string>
+    <string name="ok">OK</string>
+    <string name="delete_all_confirmation">全削除してもよろしいですか?</string>
+    
+</resources>
