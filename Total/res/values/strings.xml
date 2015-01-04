@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Total</string>
+    <string name="app_name">Total calculator</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="add">Add</string>
-    <string name="summary">Sum</string>
+    <string name="summary">Total</string>
     <string name="del">del</string>
     <string name="allClear">All clear</string>
     <string name="unit">dol</string>

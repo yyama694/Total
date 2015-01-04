@@ -91,7 +91,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	// 全画面広告の方。1回表示するたびにロードしなおす必要があるみたい。
 	public void add2Setting() {
 		if (!interstitial.isLoaded()) {
-			Log.d("fukuchi", "未ロードのため、リクエストします。");
+			Log.d("yyama", "未ロードのため、リクエストします。");
 			// 広告リクエストを作成する。
 			AdRequest adRequest = new AdRequest.Builder().addTestDevice(
 					"2D6B2CDFA13324C63449E43857621522").build();

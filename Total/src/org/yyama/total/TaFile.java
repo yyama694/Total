@@ -56,11 +56,11 @@ public class TaFile {
 							if (ma.interstitial.isLoaded()) {
 								Random rnd = new Random();
 								if (rnd.nextInt(3) != 0) {
+
 									ma.interstitial.show();
 								}
-							} else {
-								ma.add2Setting();
 							}
+							ma.add2Setting();
 
 						} catch (Exception e) {
 							Toast.makeText(ma, R.string.failed_to_save,
