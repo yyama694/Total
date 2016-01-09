@@ -113,6 +113,7 @@
             android:id="@+id/btnAllClear"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_margin="6dp"
             android:text="@string/allClear" />
     </LinearLayout>
 

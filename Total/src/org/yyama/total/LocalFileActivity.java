@@ -1,8 +1,6 @@
 package org.yyama.total;
 
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -12,12 +12,12 @@ import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -38,7 +38,7 @@ import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 
-public class MainActivity extends Activity implements OnClickListener {
+public class MainActivity extends AppCompatActivity implements OnClickListener {
 	private AdView adView;
 
 	@Override
@@ -164,7 +164,6 @@ public class MainActivity extends Activity implements OnClickListener {
 			TextView cost = new TextView(this);
 			cost.setGravity(Gravity.RIGHT);
 			cost.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 30);
-			// cost.setText(df1.format(i.toPlainString()));
 			cost.setText(nfNum.format(i));
 			cost.setWidth(0);
 			cost.setPadding(2, 2, 15, 2);
@@ -340,7 +339,7 @@ public class MainActivity extends Activity implements OnClickListener {
 					Toast.makeText(
 							this,
 							getString(R.string.opend_file)
-									+ System.lineSeparator()
+									+ System.getProperty("line.separator")
 									+ data.getStringExtra("file_title"),
 							Toast.LENGTH_LONG).show();
 				} catch (Exception e) {
