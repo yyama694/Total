@@ -47,7 +47,7 @@ public class LocalFileActivity extends Activity implements OnClickListener {
 		LinearLayout ll = (LinearLayout) findViewById(R.id.linear_layout3);
 		ll.addView(mAdView);
 		AdRequest adRequest = new AdRequest.Builder().addTestDevice(
-				"2D6B2CDFA13324C63449E43857621522").build();
+				"F3B1B2779DEF816F9B31AA6C6DC57C3F").build();
 		mAdView.loadAd(adRequest);
 	}
 
@@ -60,6 +60,9 @@ public class LocalFileActivity extends Activity implements OnClickListener {
 			String s = filesStr[i];
 			if (s.equals("sumFile.csv"))
 				continue;
+			if (!s.substring(0, 3).equals("TA_")) {
+				continue;
+			}
 			fileTitle = " " + s.substring(3, 7) + "/" + s.substring(7, 9) + "/"
 					+ s.substring(9, 11) + " " + s.substring(12, 14) + ":"
 					+ s.substring(14, 16) + ":" + s.substring(16, 18) + " ";
